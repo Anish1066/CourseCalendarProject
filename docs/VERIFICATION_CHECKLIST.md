@@ -4,7 +4,7 @@ Use this checklist to verify everything is set up correctly before testing.
 
 ## ✅ Environment Variables
 
-- [ ] `.env.local` file exists in the `code/` directory
+- [ ] `.env.local` file exists in the `project root
 - [ ] `OPENAI_API_KEY` is set (starts with `sk-`)
 - [ ] `GOOGLE_CLIENT_ID` is set (ends with `.apps.googleusercontent.com`)
 - [ ] `GOOGLE_CLIENT_SECRET` is set (starts with `GOCSPX-`)

@@ -146,7 +146,7 @@ After updating `.env.local`, you need to restart your dev server:
 
 ### Environment Variables Not Loading
 - Make sure the file is named exactly `.env.local` (not `.env` or `.env.example`)
-- Make sure the file is in the `code/` directory
+- Make sure the file is in the `project root
 - Restart your dev server after making changes
 - Check for typos in variable names (they're case-sensitive)
 

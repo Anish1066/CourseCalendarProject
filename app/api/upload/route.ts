@@ -1,5 +1,5 @@
 import { NextRequest, NextResponse } from 'next/server'
-import { extractEventsFromFile } from '@/lib/ai-extractor-simple'
+import { extractEventsFromFile } from '@/lib/ai/extractor'
 
 export const runtime = 'nodejs'
 export const maxDuration = 300 // 5 minutes max for processing (Assistants API can take longer)

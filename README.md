@@ -152,24 +152,39 @@ Sync events to Google Calendar.
 ## Project Structure
 
 ```
-code/
-├── app/
+.
+├── app/                   # Next.js app directory
 │   ├── api/              # API routes
 │   │   ├── upload/       # File upload endpoint
-│   │   └── calendar/     # Google Calendar endpoints
+│   │   ├── calendar/     # Google Calendar endpoints
+│   │   └── health/       # Health check endpoint
+│   ├── globals.css        # Global styles
 │   ├── layout.tsx         # Root layout
-│   └── page.tsx          # Home page
-├── components/           # React components
-│   ├── hero-section.tsx
+│   └── page.tsx           # Home page
+├── components/              # React components
+│   ├── ui/               # Reusable UI components
 │   ├── events-preview-section.tsx
 │   ├── google-calendar-section.tsx
-│   └── ui/              # UI components
-├── hooks/               # Custom React hooks
-│   ├── use-events.ts    # Event management hook
-│   └── use-toast.ts     # Toast notifications
-└── lib/                 # Utility functions
-    ├── file-processor.ts # File processing
-    └── ai-extractor.ts  # AI extraction logic
+│   ├── hero-section.tsx
+│   └── ...
+├── contexts/            # React Context providers
+│   └── events-context.tsx
+├── hooks/                # Custom React hooks
+│   ├── use-events.ts
+│   ├── use-mobile.ts
+│   └── use-toast.ts
+├── lib/                  # Utility libraries
+│   ├── ai/               # AI-related utilities
+│   │   ├── extractor.ts  # Event extraction from files
+│   │   └── file-processor.ts
+│   └── utils.ts          # General utilities
+├── public/               # Static assets
+├── docs/                 # Documentation
+│   ├── SETUP_GUIDE.md
+│   └── VERIFICATION_CHECKLIST.md
+├── package.json
+├── tsconfig.json
+└── README.md
 ```
 
 ## Development

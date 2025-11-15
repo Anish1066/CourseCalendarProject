@@ -23,9 +23,6 @@ export function Navbar() {
           <Link href="#faq" className="text-sm font-medium text-foreground/80 hover:text-foreground transition-colors">
             FAQ
           </Link>
-          <Link href="#login" className="text-sm font-medium text-foreground/80 hover:text-foreground transition-colors">
-            Login
-          </Link>
           <Button className="bg-gradient-to-r from-[oklch(0.7_0.15_250)] to-[oklch(0.75_0.15_350)] hover:opacity-90 text-white rounded-full">
             Get Started
           </Button>

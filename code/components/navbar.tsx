@@ -9,7 +9,7 @@ export function Navbar() {
         <div className="flex items-center gap-2">
           <Calendar className="h-6 w-6 text-[oklch(0.7_0.15_250)]" />
           <span className="text-xl font-semibold bg-gradient-to-r from-[oklch(0.7_0.15_250)] to-[oklch(0.75_0.15_350)] bg-clip-text text-transparent">
-            SyllabusSync
+            SyllabiGuy
           </span>
         </div>
 

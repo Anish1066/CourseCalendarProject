@@ -3,7 +3,7 @@ import { Accordion, AccordionContent, AccordionItem, AccordionTrigger } from '@/
 const faqs = [
   {
     question: 'What file types do you support?',
-    answer: 'SyllabusSync supports PDF, DOC, DOCX files, and common image formats like JPG and PNG. Our AI can extract dates and events from most syllabus formats.',
+    answer: 'SyllabiGuy supports PDF, DOC, DOCX files, and common image formats like JPG and PNG. Our AI can extract dates and events from most syllabus formats.',
   },
   {
     question: 'How accurate is the date detection?',
@@ -18,7 +18,7 @@ const faqs = [
     answer: 'After we extract events from your syllabus, you can review, edit titles, dates, times, and choose which events to add to your Google Calendar.',
   },
   {
-    question: 'Is SyllabusSync free?',
+    question: 'Is SyllabiGuy free?',
     answer: 'We offer a free tier that allows you to sync up to 5 syllabi per semester. For unlimited syllabi and advanced features, we offer affordable premium plans.',
   },
 ]
@@ -30,7 +30,7 @@ export function FAQSection() {
         <div className="text-center mb-16">
           <h2 className="text-3xl md:text-4xl font-bold mb-4">Frequently Asked Questions</h2>
           <p className="text-lg text-muted-foreground max-w-2xl mx-auto">
-            Everything you need to know about SyllabusSync
+            Everything you need to know about SyllabiGuy
           </p>
         </div>
 

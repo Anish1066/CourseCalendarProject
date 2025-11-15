@@ -9,7 +9,7 @@ export function Footer() {
           <div className="flex items-center gap-2">
             <Calendar className="h-5 w-5 text-[oklch(0.7_0.15_250)]" />
             <span className="font-semibold bg-gradient-to-r from-[oklch(0.7_0.15_250)] to-[oklch(0.75_0.15_350)] bg-clip-text text-transparent">
-              SyllabusSync
+              SyllabiGuy
             </span>
             <span className="text-sm text-muted-foreground ml-2">Never miss a deadline again</span>
           </div>

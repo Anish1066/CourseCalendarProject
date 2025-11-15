@@ -7,7 +7,7 @@ const _geist = Geist({ subsets: ["latin"] });
 const _geistMono = Geist_Mono({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: 'SyllabusSync - Turn Your Syllabi Into a Smart Calendar',
+  title: 'SyllabiGuy - Turn Your Syllabi Into a Smart Calendar',
   description: 'Upload your class syllabi and automatically add exams, homework, and projects to your Google Calendar. Never miss a deadline again.',
   generator: 'v0.app',
   icons: {
